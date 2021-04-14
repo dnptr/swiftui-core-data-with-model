@@ -7,7 +7,7 @@
 //
 
 import CoreData
-import os.log
+import os.log // May not be needed for production
 import SwiftUI
 
 @main
