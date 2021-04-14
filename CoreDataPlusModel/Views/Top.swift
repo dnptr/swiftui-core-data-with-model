@@ -12,23 +12,23 @@ import SwiftUI
 struct Top: View {
     @EnvironmentObject var model: AppModel
 
-    @FetchRequest(
-        fetchRequest: Item.fetchItemsFlagged()
-    ) var flaggedItemsFromManagedObjectContext: FetchedResults<Item>
-    @FetchRequest(
-        fetchRequest: Item.fetchItemsAll()
-    ) var allItemsFromManagedObjectContext: FetchedResults<Item>
+//    @FetchRequest(
+//        fetchRequest: Item.fetchItemsFlagged()
+//    ) var flaggedItemsFromManagedObjectContext: FetchedResults<Item>
+//    @FetchRequest(
+//        fetchRequest: Item.fetchItemsAll()
+//    ) var allItemsFromManagedObjectContext: FetchedResults<Item>
 
     var body: some View {
         VStack {
             VStack {
                 // Demo getting data from the moc using FetchRequest
-                DisplayCounts(
-                    title: String(describing: Self.self) + " - Data from moc",
-                    itemsTotal: allItemsFromManagedObjectContext.count,
-                    itemsFlaggedTotal: flaggedItemsFromManagedObjectContext.count,
-                    isFlaggedItemCountEven: flaggedItemsFromManagedObjectContext.count % 2 == 0
-                )
+//                DisplayCounts(
+//                    title: String(describing: Self.self) + " - Data from moc",
+//                    itemsTotal: allItemsFromManagedObjectContext.count,
+//                    itemsFlaggedTotal: flaggedItemsFromManagedObjectContext.count,
+//                    isFlaggedItemCountEven: flaggedItemsFromManagedObjectContext.count % 2 == 0
+//                )
 
                 // Demo getting the same data as in FetchRequest, but from the App's model
                 DisplayCounts(

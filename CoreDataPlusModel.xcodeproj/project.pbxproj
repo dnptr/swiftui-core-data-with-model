@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B26166126270705009D6ACA /* Log.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Log.md; sourceTree = "<group>"; };
 		FF0A111E24D9E5A200BAFCD9 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		FF2302C824DC5DE0001B2A59 /* ButtonGrp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGrp.swift; sourceTree = "<group>"; };
 		FF2BBCC024DDCA7600C5B087 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		FFC7458424D6EEE200E84D83 = {
 			isa = PBXGroup;
 			children = (
+				1B26166126270705009D6ACA /* Log.md */,
 				FF74964324E1BF70001029CD /* LICENSE */,
 				FF74964424E1BF70001029CD /* README.md */,
 				FFC7458F24D6EEE200E84D83 /* CoreDataPlusModel */,
